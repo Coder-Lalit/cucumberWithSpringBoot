@@ -3,6 +3,7 @@ Feature: Validating application search result
     Given User navigate to application
     When Perform search for "Cucumber"
     Then User should land on "Cucumber" page
+
   Scenario: Validating Search 2
     Given User navigate to application
     When Perform search for "Cucumber"
